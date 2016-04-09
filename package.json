@@ -19,7 +19,7 @@
 		}],
 		"grammars": [{
 			"language": "yml",
-			"scopeName": "text.html.js",
+			"scopeName": "yaml.laml.ding.dong.yml",
 			"path": "./Syntax Definitions/YML.tmLanguage"
 		}]
 	}
