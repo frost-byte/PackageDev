@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -143,6 +144,7 @@
     <Folder Include="fileconv\tests" />
     <Folder Include="fileconv" />
     <Folder Include="messages" />
+    <Folder Include=".vscode\" />
     <Folder Include="ordereddict_yaml" />
     <Folder Include="scope_data" />
     <Folder Include="Snippets\Commands" />
@@ -164,5 +166,8 @@
     <Folder Include="tests\test_sublime_lib\test_view" />
     <Folder Include="tests\test_sublime_lib" />
     <Folder Include="tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".vscode\launch.json" />
   </ItemGroup>
 </Project>
