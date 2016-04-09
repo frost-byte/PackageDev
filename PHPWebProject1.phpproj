@@ -1,0 +1,168 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPWebProject1</Name>
+    <ProjectGuid>{e852d0bf-c8e9-41e3-87f6-a54c16420470}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="fileconv\tests\strip_js_comments.py" />
+    <Compile Include="fileconv\dumpers.py" />
+    <Compile Include="fileconv\loaders.py" />
+    <Compile Include="fileconv\plist_parser.py" />
+    <Compile Include="fileconv\plist_parser_LICENSE" />
+    <Compile Include="fileconv\__init__.py" />
+    <Compile Include="messages\1.0.1.txt" />
+    <Compile Include="messages\1.0.2.txt" />
+    <Compile Include="messages\1.0.3.txt" />
+    <Compile Include="messages\1.0.4.txt" />
+    <Compile Include="messages\1.0.5.txt" />
+    <Compile Include="messages\1.0.6.txt" />
+    <Compile Include="messages\1.0.7.txt" />
+    <Compile Include="messages\1.0.8.txt" />
+    <Compile Include="messages\2.0.0.txt" />
+    <Compile Include="messages\2.1.0.txt" />
+    <Compile Include="ordereddict_yaml\__init__.py" />
+    <Compile Include="scope_data\__init__.py" />
+    <Compile Include="Snippets\Commands\Commands.sublime-completions" />
+    <Compile Include="Snippets\Completions Development\Completions.sublime-completions" />
+    <Compile Include="Snippets\JSON Syntax Definitions\(repoit) Repository Item.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\bcaptures-(beginCaptures).sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\begin.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\capture.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\captures.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\comment.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\ecaptures-(endCaptures).sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\ftypes-(fileTypes).sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\include.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\key.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\match.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\patterns.sublime-snippet" />
+    <Compile Include="Snippets\JSON Syntax Definitions\repository.sublime-snippet" />
+    <Compile Include="Snippets\Key Bindings\Arguments to Command.sublime-snippet" />
+    <Compile Include="Snippets\Key Bindings\Context Entry.sublime-snippet" />
+    <Compile Include="Snippets\Key Bindings\Context.sublime-snippet" />
+    <Compile Include="Snippets\Key Bindings\Simple Key Binding.sublime-snippet" />
+    <Compile Include="Snippets\Mouse Bindings\Simple Mouse Binding.sublime-snippet" />
+    <Compile Include="Snippets\Settings Development\Settings Development.sublime-completions" />
+    <Compile Include="Snippets\Snippet Development\Snippet Development.sublime-completions" />
+    <Compile Include="sublime_lib\view\output_panel.py" />
+    <Compile Include="sublime_lib\view\_view.py" />
+    <Compile Include="sublime_lib\view\__init__.py" />
+    <Compile Include="sublime_lib\constants.py" />
+    <Compile Include="sublime_lib\edit.py" />
+    <Compile Include="sublime_lib\path.py" />
+    <Compile Include="sublime_lib\__init__.py" />
+    <Compile Include="Support\API\API.sublime-completions" />
+    <Compile Include="Support\JSON Syntax Definition\Comments.tmPreferences" />
+    <Compile Include="Support\JSON Syntax Definition\Symbol List.tmPreferences" />
+    <Compile Include="Support\Key Bindings\Key Bindings - Context Operand Left.sublime-completions" />
+    <Compile Include="Support\Key Bindings\Key Bindings - Context Operand Right.sublime-completions" />
+    <Compile Include="Support\Key Bindings\Key Bindings - Context Operators.sublime-completions" />
+    <Compile Include="Support\Key Bindings\Key Bindings - Key Binding Key Sequence.sublime-completions" />
+    <Compile Include="Support\YAML Syntax Definition\Comments.tmPreferences" />
+    <Compile Include="Support\YAML Syntax Definition\Symbol List.tmPreferences" />
+    <Compile Include="Support\Comments.tmPreferences" />
+    <Compile Include="Support\Convert to ....sublime-build" />
+    <Compile Include="Support\Default.sublime-keymap" />
+    <Compile Include="Support\JSON Generic Object.JSON-tmLanguage" />
+    <Compile Include="Support\JSON Generic Object.tmLanguage" />
+    <Compile Include="Support\JSON Generic String Content.JSON-tmLanguage" />
+    <Compile Include="Support\JSON Generic String Content.tmLanguage" />
+    <Compile Include="Support\Main.sublime-menu" />
+    <Compile Include="Support\PackageDev.sublime-commands" />
+    <Compile Include="Support\Sublime Completions.sublime-settings" />
+    <Compile Include="Support\Sublime Key Map.sublime-settings" />
+    <Compile Include="Support\Sublime Settings.sublime-settings" />
+    <Compile Include="Support\Sublime Text Build System.sublime-settings" />
+    <Compile Include="Support\Sublime Text Syntax Def (YAML).sublime-settings" />
+    <Compile Include="Syntax Definitions\JSON Generic Array Elements.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\JSON Generic Array Elements.tmLanguage" />
+    <Compile Include="Syntax Definitions\JSON Generic Array.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\JSON Generic Array.tmLanguage" />
+    <Compile Include="Syntax Definitions\Oniguruma Regular Expression.tmLanguage" />
+    <Compile Include="Syntax Definitions\Oniguruma Regular Expression.YAML-tmLanguage" />
+    <Compile Include="Syntax Definitions\Regular Expression (Escaped).JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Regular Expression (Escaped).tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Commands.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Commands.tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Completions.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Completions.tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Key Map.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Key Map.tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Macros.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Macros.tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Mouse Map.tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Mouse Map.YAML-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Settings.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Settings.tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Snippet (Raw).tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Snippet (Raw).YAML-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Text Build System.JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Text Build System.tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Text Syntax Def (JSON).JSON-tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Text Syntax Def (JSON).tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Text Syntax Def (YAML).tmLanguage" />
+    <Compile Include="Syntax Definitions\Sublime Text Syntax Def (YAML).YAML-tmLanguage" />
+    <Compile Include="Syntax Definitions\YML.tmLanguage" />
+    <Compile Include="tests\test_sublime_lib\test_view\test_view.py" />
+    <Compile Include="tests\test_sublime_lib\test_view\__init__.py" />
+    <Compile Include="tests\test_sublime_lib\test_path.py" />
+    <Compile Include="tests\regexp.ore" />
+    <Compile Include="tests\sublime.py" />
+    <Compile Include="tests\sublime_plugin.py" />
+    <Compile Include=".gitignore" />
+    <Compile Include=".travis.yml" />
+    <Compile Include="AUTHORS.txt" />
+    <Compile Include="build_sys_dev.py" />
+    <Compile Include="commands_file_dev.py" />
+    <Compile Include="completions_dev.py" />
+    <Compile Include="CONTRIBUTORS.txt" />
+    <Compile Include="dependencies.json" />
+    <Compile Include="file_conversion.py" />
+    <Compile Include="LICENSE.txt" />
+    <Compile Include="messages.json" />
+    <Compile Include="package.json" />
+    <Compile Include="README.rst" />
+    <Compile Include="settings_dev.py" />
+    <Compile Include="setup.cfg" />
+    <Compile Include="snippet_dev.py" />
+    <Compile Include="syntax_def_dev.py" />
+    <Compile Include="yml.configuration.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fileconv\tests" />
+    <Folder Include="fileconv" />
+    <Folder Include="messages" />
+    <Folder Include="ordereddict_yaml" />
+    <Folder Include="scope_data" />
+    <Folder Include="Snippets\Commands" />
+    <Folder Include="Snippets\Completions Development" />
+    <Folder Include="Snippets\JSON Syntax Definitions" />
+    <Folder Include="Snippets\Key Bindings" />
+    <Folder Include="Snippets\Mouse Bindings" />
+    <Folder Include="Snippets\Settings Development" />
+    <Folder Include="Snippets\Snippet Development" />
+    <Folder Include="Snippets" />
+    <Folder Include="sublime_lib\view" />
+    <Folder Include="sublime_lib" />
+    <Folder Include="Support\API" />
+    <Folder Include="Support\JSON Syntax Definition" />
+    <Folder Include="Support\Key Bindings" />
+    <Folder Include="Support\YAML Syntax Definition" />
+    <Folder Include="Support" />
+    <Folder Include="Syntax Definitions" />
+    <Folder Include="tests\test_sublime_lib\test_view" />
+    <Folder Include="tests\test_sublime_lib" />
+    <Folder Include="tests" />
+  </ItemGroup>
+</Project>
