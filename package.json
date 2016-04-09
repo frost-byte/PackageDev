@@ -1,0 +1,26 @@
+{
+	"name": "yml",
+	"displayName": "Yet Another Markup Language (YML)",
+	"description": "A YML syntax definition specifically for Visual Studio Code.",
+	"version": "0.0.1",
+	"publisher": "frost-byte",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "yml",
+			"aliases": ["YML", "yml", "yaml"],
+			"extensions": [".yml"],
+			"configuration": "./yml.configuration.json"
+		}],
+		"grammars": [{
+			"language": "yml",
+			"scopeName": "text.html.js",
+			"path": "./Syntax Definitions/YML.tmLanguage"
+		}]
+	}
+}
